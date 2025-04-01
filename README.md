@@ -10,7 +10,7 @@ The application complements TradingView for charting while focusing exclusively 
 
 PrivacyTrader is ideal for day traders, scalpers, and privacy-conscious investors who prioritize data security and execution speed over complex features.
 
-![image](https://github.com/user-attachments/assets/b255e354-8319-4a10-96ed-53b9081fae9a)
+![image](https://github.com/user-attachments/assets/93732bc9-ec09-47cb-9b40-eded255c2ccb)
 
 
 
