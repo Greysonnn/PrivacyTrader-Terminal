@@ -12,9 +12,49 @@ PrivacyTrader is ideal for day traders, scalpers, and privacy-conscious investor
 
 ![image](https://github.com/user-attachments/assets/93732bc9-ec09-47cb-9b40-eded255c2ccb)
 
+### API Config Button in Header
+
+- "API Config" button in the top navigation bar
+- When clicked, it opens a modal dialog for entering API credentials
+
+### Secure API Configuration Dialog
+The dialog includes fields for all necessary IBKR API credentials:
+
+- **API Key** - With show/hide toggle for security
+- **API Secret** - With show/hide toggle for security
+- **Account ID** - For identifying the specific trading account
+- **API Endpoint** - Configurable endpoint (default: api.interactivebrokers.com)
+- **Port** - Configurable port (default: 4001)
+- **Encryption Toggle** - Option to enable/disable AES-256 encryption
 
 
-Technicals
+### Security Features
+
+- Password fields mask sensitive information by default
+- Show/hide toggles allow temporary viewing of credentials when needed
+- Clear indication that credentials are stored locally with encryption
+- The dialog emphasizes the privacy-first approach with a reminder about local encryption
+
+
+### Integration with App
+
+- The status bar now shows the connected account ID
+- API settings are stored in state and would be encrypted before saving to local storage
+- The configuration follows the privacy-first approach specified in the requirements
+
+
+### Implementation Notes
+
+In a real implementation:
+
+1. API credentials would be encrypted using AES-256 before storing locally
+2. The app would use these credentials to establish a connection to IBKR
+3. No credentials would ever be transmitted to any server other than IBKR
+4. The app would validate credentials before saving them
+5. A master password would be required to decrypt and use the stored credentials
+
+
+## Technicals
 
 ![image](https://github.com/user-attachments/assets/3305970d-7bfe-4766-b0c1-e53550cafc59)
 
