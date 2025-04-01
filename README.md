@@ -7,3 +7,6 @@ Unlike cloud-based alternatives, PrivacyTrader stores all data locally with AES-
 <br>
 The application complements TradingView for charting while focusing exclusively on orderbook visualization and trade execution. With its clean, minimal interface, traders can quickly place market, limit, and stop orders while monitoring positions and P&L in real-time.
 PrivacyTrader is ideal for day traders, scalpers, and privacy-conscious investors who prioritize data security and execution speed over complex features. <br>
+
+
+![image](https://github.com/user-attachments/assets/3305970d-7bfe-4766-b0c1-e53550cafc59)
